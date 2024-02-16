@@ -2,7 +2,8 @@
 [staging.deploy]
 [staging.deploy.parameters]
 stack_name = "todo-list-aws-staging"
-s3_prefix = "todo-list-aws"
+resolve_s3 = true
+s3_prefix = "todo-list-aws-staging"
 region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "Stage=\"staging\""
