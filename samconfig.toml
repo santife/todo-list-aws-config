@@ -2,9 +2,9 @@ version = 1.99
 [staging]
 [staging.deploy]
 [staging.deploy.parameters]
-stack_name = "todo-list-aws-stagin"
+stack_name = "todo-list-staging"
 resolve_s3 = true
-s3_prefix = "todo-list-aws-stagin"
+s3_prefix = "todo-list-staging"
 region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "Stage=\"staging\""
